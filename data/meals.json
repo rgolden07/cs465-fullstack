@@ -1,0 +1,23 @@
+[
+	{
+		"mealType": "SEAFOOD SPECIAL",
+		"image": "seafoods.jpg",
+		"meal": "Fried Salmon Special",
+		"desc": "I'm a product overview. Here you can write more information about your product. Buyers like to know ...",
+		"link": "meals"
+	},
+	{
+		"mealType": "SUMPTUOUS DESSERTS",
+		"image": "desserts.jpg",
+		"meal": "Choco Ice Cream Sandwich",
+		"desc": "I'm a product overview. Here you can write more information about your product. Buyers like to know ...",
+		"link": "meals"
+	},
+	{
+		"mealType": "BUFFET",
+		"image": "buffet.jpg",
+		"meal": "Mixed Buffet",
+		"desc": "I'm a product overview. Here you can write more information about your product. Buyers like to know ...",
+		"link": "meals"
+	}
+]
