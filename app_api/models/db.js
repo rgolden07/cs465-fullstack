@@ -4,6 +4,7 @@ if (process.env.NODE_ENV === 'production') {
     dbURI = process.env.MONGODB_URI;
 }
 mongoose.connect(dbURI);
+//.catch(error => console.log(error))
 
 mongoose.connection.on('connected', () => {
     console.log(`Mongoose connected to ${dbURI}`);
@@ -40,6 +41,8 @@ process.on('SIGTERM', () => {
         process.exit(0);
     });
 });
+
+
 
 require('./travlr');
 module.exports = mongoose;
