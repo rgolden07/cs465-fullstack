@@ -12,7 +12,7 @@ import { Trip } from '../models/trip';
   templateUrl: './edit-trip.component.html',
   styleUrl: './edit-trip.component.css'
 })
-export class EditTripComponent {
+export class EditTripComponent implements OnInit {
   public editForm!: FormGroup;
   trip!: Trip;
   submitted = false;
